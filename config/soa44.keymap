@@ -45,20 +45,21 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
-    to_eisu: to_eisu {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        label = "TO_EISU";
-        bindings = <&kp LC(SPACE)>;
-    };
 
-    to_kana: to_kana {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        label = "TO_KANA";
-        bindings = <&kp LANG1>;
+        to_eisu: to_eisu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            label = "TO_EISU";
+            bindings = <&kp LC(SPACE)>;
+        };
+
+        to_kana: to_kana {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            label = "TO_KANA";
+            bindings = <&kp LANG1>;
+        };
     };
-};
 
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
@@ -69,6 +70,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
         rmclk: layer_mouse_right_click {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_MOUSE_RIGHT_CLICK";
@@ -77,13 +79,14 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&mkp>;
         };
+
         zenhan_td: zenhan_tap_dance {
             compatible = "zmk,behavior-tap-dance";
             label = "ZENHAN_TAP_DANCE";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
             bindings = <&kp LANG2>, <&kp LANG1>;
-          };
+        };
     };
 
     keymap {
@@ -91,10 +94,10 @@
 
         default {
             bindings = <
-&zenhan_td     &kp Q         &kp W         &kp E     &kp R        &kp T      &kp Y        &kp U        &kp I  &kp O      &kp P          &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A         &kp S         &kp D     &kp F        &kp G      &kp H        &kp J        &kp K  &kp L      &lt 5 MINUS    &kp ENTER
-&kp LCTRL       &kp Z         &kp X         &kp C     &kp V        &kp B      &kp B        &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH
-                &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1  &rmclk 1 MB2  &lt 2 ESC  &lt 3 ENTER  &lt 4 SPACE  &kp SEMICOLON
+&zenhan_td      &kp Q         &kp W         &kp E     &kp R         &kp T      &kp Y      &kp U        &kp I  &kp O      &kp P          &kp BACKSPACE
+&kp LEFT_SHIFT  &kp A         &kp S         &kp D     &kp F         &kp G      &kp H      &kp J        &kp K  &kp L      &lt 5 MINUS    &kp ENTER
+&kp LCTRL       &kp Z         &kp X         &kp C     &kp V         &kp B      &kp B      &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH
+                &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1  &rmclk 1 MB2  &lt 3 ESC  &lt 2 TAB  &lt 4 SPACE                    &kp SEMICOLON
             >;
         };
 
