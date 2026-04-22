@@ -75,12 +75,12 @@ to_eisu: to_eisu {
             bindings = <&mo>, <&mkp>;
         };
         zenhan_td: zenhan_tap_dance {
-    compatible = "zmk,behavior-tap-dance";
-    label = "ZENHAN_TAP_DANCE";
-    #binding-cells = <0>;
-    tapping-term-ms = <300>;
-    bindings = <&to_eisu>, <&to_kana>;
-};
+            compatible = "zmk,behavior-tap-dance";
+            label = "ZENHAN_TAP_DANCE";
+            #binding-cells = <0>;
+            tapping-term-ms = <300>;
+            bindings = <&kp LANG2>, <&kp LANG1>;
+          };
     };
 
     keymap {
