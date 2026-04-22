@@ -56,6 +56,14 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+        rmclk: layer_mouse_right_click {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_MOUSE_RIGHT_CLICK";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&mkp>;
+        };
     };
 
     keymap {
@@ -66,7 +74,7 @@
 &kp ESCAPE      &kp Q         &kp W         &kp E     &kp R        &kp T      &kp Y        &kp U        &kp I  &kp O      &kp P          &kp BACKSPACE
 &kp LEFT_SHIFT  &kp A         &kp S         &kp D     &kp F        &kp G      &kp H        &kp J        &kp K  &kp L      &lt 5 MINUS    &kp ENTER
 &kp LCTRL       &kp Z         &kp X         &kp C     &kp V        &kp B      &kp B        &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH
-                &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1  &lt 1 SPACE  &lt 2 ESC  &lt 3 ENTER  &lt 4 SPACE                    &kp SEMICOLON
+                &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1  &rmclk 1 MB2  &lt 2 ESC  &lt 3 ENTER  &lt 4 SPACE  &kp SEMICOLON
             >;
         };
 
