@@ -12,9 +12,9 @@ manifest:
       url-base: https://github.com/iwk7273
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
+  remote: zmkfirmware
+  revision: v0.3
+  import: app/west.yml
     - name: zmk-feature-non-lipo-battery-management
       remote: sekigon-gonnoc
       revision: main
