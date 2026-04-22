@@ -46,11 +46,10 @@
             label = "TO_LAYER_0";
         };
 to_eisu: to_eisu {
-        compatible = "zmk,behavior-macro";
-        label = "TO_EISU";
-        bindings = <&kp LC(SPACE)>;   // ← Ctrl+Space（英数）
-    };
-
+    compatible = "zmk,behavior-macro";
+    label = "TO_EISU";
+    bindings = <&kp LC(SPACE)>;   // ← これは一旦OKとして使う
+};
     to_kana: to_kana {
         compatible = "zmk,behavior-macro";
         label = "TO_KANA";
