@@ -103,10 +103,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMICOLON  &kp PLUS       &trans    &trans        &kp DEL
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1       &mkp MB2       &mkp MB3  &lt 5 MINUS   &kp LC(C)
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LEFT)   &kp LA(RIGHT)  &trans    &kp LC(V)     &kp LC(A)
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans                                  &kp QUESTION
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp SEMICOLON  &kp PLUS       &trans    &trans        &kp DEL
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &mkp MB1       &mkp MB2       &mkp MB3  &lt 5 MINUS   &kp LC(C)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans         &kp LA(LEFT)   &kp LA(RIGHT)  &trans    &kp LC(V)     &kp LC(A)
+        &trans  &trans  &trans  &trans  &trans  &kp PAGE_DOWN  &kp PAGE_UP                             &kp QUESTION
             >;
         };
 
