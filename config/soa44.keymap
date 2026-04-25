@@ -94,9 +94,9 @@
 
         default {
             bindings = <
-&zenhan_td      &kp QUESTION  &kp W         &kp E     &kp R        &kp T         &kp Y      &kp U        &kp I  &kp O      &kp MINUS      &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A         &kp S         &kp D     &kp F        &kp G         &kp H      &kp J        &kp K  &kp L      &kp P          &mo 5
-&kp LCTRL       &kp Z         &kp X         &kp C     &kp V        &kp B         &kp B      &kp N        &kp M  &kp COMMA  &kp DOT        &kp ENTER
+&zenhan_td      &kp QUESTION  &kp W         &kp E     &kp R         &kp T        &kp Y      &kp U        &kp I  &kp O      &kp MINUS      &kp BACKSPACE
+&kp LEFT_SHIFT  &kp A         &kp S         &kp D     &kp F         &kp G        &kp H      &kp J        &kp K  &kp L      &kp P          &mo 5
+&kp LCTRL       &kp Z         &kp X         &kp C     &kp V         &kp B        &kp B      &kp N        &kp M  &kp COMMA  &kp DOT        &kp ENTER
                 &kp LEFT_WIN  &kp LEFT_ALT  &mkp MB1  &rmclk 1 MB2  &lt 3 SPACE  &lt 2 TAB  &lt 4 SPACE                    &kp LG(LC(V))
             >;
         };
@@ -104,7 +104,7 @@
         MOUSE {
             bindings = <
 &kp ESCAPE  &trans  &trans    &kp UP            &mkp MB4           &mkp MB5       &trans         &kp SEMICOLON  &kp PLUS       &trans    &trans        &kp DEL
-&trans      &trans  &kp LEFT  &kp DOWN          &kp RIGHT          &kp PAGE_UP    &trans         &mkp MB1       &mkp MB2       &mkp MB3  &lt 5 MINUS   &kp LC(C)
+&trans      &trans  &kp LEFT  &kp DOWN          &kp RIGHT          &kp PAGE_UP    &trans         &mkp MB1       &mkp MB2       &mkp MB3  &kp LC(C)     &kp LC(C)
 &trans      &trans  &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_DOWN  &trans         &kp LA(LEFT)   &kp LA(RIGHT)  &trans    &kp LC(V)     &kp LC(A)
             &trans  &trans    &trans            &trans             &trans         &kp PAGE_DOWN  &kp PAGE_UP                             &kp QUESTION
             >;
