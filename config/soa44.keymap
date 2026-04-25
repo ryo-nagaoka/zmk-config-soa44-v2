@@ -103,10 +103,10 @@
 
         MOUSE {
             bindings = <
-&kp ESCAPE  &trans  &trans    &kp UP            &mkp MB4           &mkp MB5       &kp EXCLAMATION       &kp SEMICOLON          &kp PLUS          &kp ASTERISK       &kp SLASH     &kp DEL
-&trans      &trans  &kp LEFT  &kp DOWN          &kp RIGHT          &kp PAGE_UP    &kp AT_SIGN           &kp AMPERSAND          &kp PRCNT         &kp EQUAL          &kp LC(C)     &kp LC(C)
-&trans      &trans  &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_DOWN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LC(V)     &kp LC(A)
-            &trans  &trans    &trans            &trans             &trans         &kp PAGE_DOWN         &kp PAGE_UP                                                 &kp QUESTION
+&kp ESCAPE  &trans  &trans    &kp UP          &mkp MB4         &mkp MB5       &kp EXCLAMATION       &kp SEMICOLON          &kp PLUS          &kp ASTERISK       &kp SLASH     &kp DEL
+&trans      &trans  &kp LEFT  &kp DOWN        &kp RIGHT        &kp PAGE_UP    &kp AT_SIGN           &kp AMPERSAND          &kp PRCNT         &kp EQUAL          &kp LC(C)     &kp LC(C)
+&trans      &trans  &trans    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PAGE_DOWN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LC(V)     &kp LC(A)
+            &trans  &trans    &trans          &trans           &trans         &kp PAGE_DOWN         &kp PAGE_UP                                                 &kp QUESTION
             >;
         };
 
