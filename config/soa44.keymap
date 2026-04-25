@@ -85,7 +85,7 @@
             label = "ZENHAN_TAP_DANCE";
             #binding-cells = <0>;
             tapping-term-ms = <300>;
-            bindings = <&kp LANG2>, <&kp LANG1>;
+            bindings = <&kp LANG1>, <&kp LANG2>;
         };
     };
 
