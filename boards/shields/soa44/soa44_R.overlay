@@ -102,7 +102,6 @@ trackball_listener {
         y-input-code = <1>;  // INPUT_REL_Y
         cpi = <1300>;
         invert-y;
-        force-awake;
         wakeup-source;
     };
 };
