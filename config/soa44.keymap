@@ -130,10 +130,10 @@
 
         ARROW {
             bindings = <
-&trans  &trans  &trans    &kp UP    &trans     &trans  &trans  &trans            &kp LS(LC(UP))    &trans             &mkp MB1  &mkp MB2
+&trans  &trans  &trans    &kp UP    &mkp MB4   &trans  &trans  &trans            &kp LS(LC(UP))    &trans             &mkp MB1  &mkp MB2
 &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &kp LS(LC(LEFT))  &kp LS(LC(DOWN))  &kp LS(LC(RIGHT))  &trans    &trans
 &mo 6   &trans  &trans    &trans    &trans     &trans  &trans  &trans            &mkp MB1          &mkp MB2           &trans    &trans
-        &trans  &trans    &trans    &trans     &trans  &trans  &trans                                                 &trans
+        &trans  &trans    &mkp MB4  &mkp MB5   &trans  &trans  &trans                                                 &trans
             >;
         };
 
