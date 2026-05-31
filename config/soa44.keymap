@@ -61,13 +61,14 @@
         };
     };
 
+    behaviors {
         scroll_hold: scroll_hold {
-        compatible = "zmk,behavior-hold-tap";
-        label = "SCROLL_HOLD";
-        #binding-cells = <2>;
-        flavor = "tap-preferred";
-        tapping-term-ms = <200>;
-        bindings = <&mo>, <&kp>;
+            compatible = "zmk,behavior-hold-tap";
+            label = "SCROLL_HOLD";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&kp>;
         };
 
         rmclk: layer_mouse_right_click {
