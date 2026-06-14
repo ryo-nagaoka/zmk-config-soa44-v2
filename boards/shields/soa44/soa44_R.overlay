@@ -100,7 +100,7 @@ trackball_listener {
         evt-type = <2>;  // INPUT_EV_REL
         x-input-code = <0>;  // INPUT_REL_X
         y-input-code = <1>;  // INPUT_REL_Y
-        cpi = <1300>;
+        cpi = <1500>;
         invert-y;
         wakeup-source;
     };
