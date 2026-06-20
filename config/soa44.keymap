@@ -103,10 +103,10 @@
 
         MOUSE {
             bindings = <
-&kp ESCAPE     &kp Q      &trans    &kp UP          &mkp MB4         &mkp MB5       &kp EXCLAMATION       &kp SEMICOLON          &kp PLUS          &kp EQUAL          &kp SLASH      &kp DEL
-&kp LS(LA(F))  &kp PRCNT  &kp LEFT  &kp DOWN        &kp RIGHT        &kp PAGE_UP    &kp COLON             &kp AMPERSAND          &kp ASTERISK      &kp AT_SIGN        &kp LC(V)      &kp LC(C)
-&kp LCTRL      &kp LC(Z)  &trans    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PAGE_DOWN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LC(V)      &kp LC(A)
-               &trans     &trans    &trans          &trans           &trans         &kp PAGE_DOWN         &kp PAGE_UP                                                 &kp LG(LC(V))
+&kp ESCAPE     &kp Q      &trans    &kp UP          &mkp MB4         &mkp MB5           &kp EXCLAMATION       &kp SEMICOLON          &kp UNDERSCORE    &kp HASH           &kp TILDE      &kp DEL
+&kp LS(LA(F))  &kp PRCNT  &kp LEFT  &kp DOWN        &kp RIGHT        &kp SINGLE_QUOTE   &kp COLON             &kp AMPERSAND          &kp ASTERISK      &kp AT_SIGN        &kp LC(V)      &kp LC(C)
+&kp LCTRL      &kp LC(Z)  &trans    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LC(V)      &kp LC(A)
+               &trans     &trans    &trans          &trans           &trans             &kp PAGE_DOWN         &kp PAGE_UP                                                 &kp LG(LC(V))
             >;
         };
 
