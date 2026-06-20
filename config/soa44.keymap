@@ -104,7 +104,7 @@
         MOUSE {
             bindings = <
 &kp ESCAPE     &kp Q      &trans    &kp UP          &mkp MB4         &mkp MB5       &kp EXCLAMATION       &kp SEMICOLON          &kp PLUS          &kp EQUAL          &kp SLASH      &kp DEL
-&kp LS(LA(F))  &trans     &kp LEFT  &kp DOWN        &kp RIGHT        &kp PAGE_UP    &kp COLON             &kp AMPERSAND          &kp ASTERISK      &kp AT_SIGN        &kp LC(V)      &kp LC(C)
+&kp LS(LA(F))  &kp PRCNT  &kp LEFT  &kp DOWN        &kp RIGHT        &kp PAGE_UP    &kp COLON             &kp AMPERSAND          &kp ASTERISK      &kp AT_SIGN        &kp LC(V)      &kp LC(C)
 &kp LCTRL      &kp LC(Z)  &trans    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PAGE_DOWN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LC(V)      &kp LC(A)
                &trans     &trans    &trans          &trans           &trans         &kp PAGE_DOWN         &kp PAGE_UP                                                 &kp LG(LC(V))
             >;
@@ -121,10 +121,10 @@
 
         NUM {
             bindings = <
-&trans  &kp N1            &kp N2             &kp N3          &kp N4           &kp N5    &kp PAGE_UP    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL     &kp BACKSPACE
-&trans  &trans            &trans             &trans          &mkp MB4         &mkp MB5  &kp PAGE_DOWN  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH     &kp ENTER
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp MINUS      &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
-        &trans            &trans             &trans          &trans           &trans    &kp LC(ESC)    &kp NUMBER_0                              &kp DOT
+&trans  &kp N1            &kp N2             &kp N3          &kp N4           &kp N5    &kp PRCNT    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL     &kp BACKSPACE
+&trans  &trans            &trans             &trans          &mkp MB4         &mkp MB5  &kp TILDE    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH     &kp ENTER
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp MINUS    &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
+        &trans            &trans             &trans          &trans           &trans    &kp LC(ESC)  &kp NUMBER_0                              &kp DOT
             >;
         };
 
