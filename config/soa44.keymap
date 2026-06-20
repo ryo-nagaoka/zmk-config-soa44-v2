@@ -123,8 +123,8 @@
             bindings = <
 &trans  &kp N1            &kp N2             &kp N3          &kp N4           &kp N5    &kp PRCNT    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL     &kp BACKSPACE
 &trans  &trans            &trans             &trans          &mkp MB4         &mkp MB5  &kp TILDE    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH     &kp ENTER
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp MINUS    &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK
-        &trans            &trans             &trans          &trans           &trans    &kp LC(ESC)  &kp NUMBER_0                              &kp DOT
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE  &kp MINUS    &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT
+        &trans            &trans             &trans          &trans           &trans    &kp LC(ESC)  &kp ASTRK                                 &kp NUMBER_0
             >;
         };
 
