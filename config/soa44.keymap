@@ -106,7 +106,7 @@
 &kp ESCAPE     &kp Q      &trans     &kp UP          &mkp MB4         &mkp MB5           &kp EXCLAMATION       &kp SEMICOLON          &kp UNDERSCORE    &kp HASH           &kp TILDE      &kp DEL
 &kp LS(LA(F))  &kp PRCNT  &kp LC(A)  &kp LC(V)       &kp LC(C)        &kp SINGLE_QUOTE   &kp COLON             &kp AMPERSAND          &kp ASTERISK      &kp AT_SIGN        &kp INT_YEN    &kp LC(ENTER)
 &kp LCTRL      &kp LC(Z)  &trans     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN
-               &trans     &trans     &trans          &trans           &trans             &kp PAGE_DOWN         &kp PAGE_UP                                                 &kp LG(LC(V))
+               &trans     &trans     &tog 0          &trans           &tog 7             &kp PAGE_DOWN         &kp PAGE_UP                                                 &kp LG(LC(V))
             >;
         };
 
@@ -152,6 +152,15 @@
 &trans  &trans        &trans        &trans        &trans  &trans  &trans        &trans        &trans        &trans        &trans          &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &bootloader   &trans        &trans        &trans        &trans          &bt BT_CLR
         &trans        &trans        &trans        &trans  &trans  &trans        &trans                                    &bt BT_CLR_ALL
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&kp LC(SPACE)  &mo 5     &kp L     &kp U     &kp COMMA     &kp DOT         &kp F      &kp W        &kp R  &kp Y  &kp P      &kp BSPC
+&kp LSHFT      &kp E     &kp I     &kp A     &kp O         &kp MINUS       &kp K      &kp T        &kp N  &kp S  &kp H      &kp ENTER
+&kp LCTRL      &kp Z     &kp X     &kp C     &kp V         &kp G           &kp G      &kp D        &kp M  &kp J  &kp B      &kp RSHFT
+               &kp LGUI  &kp LALT  &mkp MB1  &rmclk 1 MB2  &lt 3 QUESTION  &lt 2 TAB  &lt 4 SPACE                &kp RCTRL
             >;
         };
     };
